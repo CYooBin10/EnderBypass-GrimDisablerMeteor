@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "ender-bypass",
+  "version": "${version}",
+  "name": "EnderBypass",
+  "description": "Bypasses GrimAC + Vulcan anti-cheat. Addon for Meteor Client.",
+  "authors": [
+    "CYoob10"
+  ],
+  "contact": {
+    "Discord": "cyoob10"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.cyoo.addon.Addon"
+    ]
+  },
+  "mixins": [
+    "addon-template.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "75,0,130"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}
