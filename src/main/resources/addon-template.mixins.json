@@ -1,9 +1,0 @@
-{
-  "required": true,
-  "package": "com.iroak.addon.mixin",
-  "compatibilityLevel": "JAVA_17",
-  "client": [],
-  "injectors": {
-    "defaultRequire": 1
-  }
-}
